@@ -4,7 +4,7 @@
 * Tensorflow 1.4
 * Python 3.6
 
-#Abstract
+#Abstract 
 In recent years, automatic driving has become one of the hot topics in the automotive industry. It is pointed out that fully autonomous vehicles must travel hundreds of millions of miles to prove their reliability in safety. In addition, reinforcement learning of autopilot models requires sufficient road driving for iterative training. At present, many research institutes and manufacturer of automatic driving put the model of automatic driving agent into the virtual driving environment of computer simulation for training or testing.
 Existing data-driven and neural network generation methods can generate more realistic driving environment images, but they can not control driving environment modes (such as atmospheric conditions, lighting conditions). To solve this problem, based on the multi-modal image generation framework, this paper generates driving environment images according to the semantic layout and can construct real images under various illuminations. The specific work is as follows:
 1. This paper introduces the concept of partially shared hidden space to realize the modal control of driving environment. Image representation can be decomposed into content-invariant implicit codes with respect to domain and stylistic implicit codes with specific attributes represented by capture. Random Style Hidden Code allows one-to-many mapping, learning the conditional distribution of the corresponding image in the target domain.
