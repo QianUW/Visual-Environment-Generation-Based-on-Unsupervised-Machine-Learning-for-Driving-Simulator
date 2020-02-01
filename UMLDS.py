@@ -4,9 +4,9 @@ from glob import glob
 import time
 from tensorflow.contrib.data import batch_and_drop_remainder
 
-class MUNIT(object) :
+class UMLDS(object) :
     def __init__(self, sess, args):
-        self.model_name = 'MUNIT'
+        self.model_name = 'UMLDS'
         self.sess = sess
         self.checkpoint_dir = args.checkpoint_dir
         self.result_dir = args.result_dir

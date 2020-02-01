@@ -1,4 +1,4 @@
-from MUNIT import MUNIT
+from UMLDS import UMLDS
 import argparse
 from utils import *
 

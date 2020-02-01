@@ -6,9 +6,6 @@ import numpy as np
 import cv2
 import imageio
 
-# https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/
-# https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/
-
 class ImageData:
 
     def __init__(self, img_h, img_w, channels, augment_flag=False):
